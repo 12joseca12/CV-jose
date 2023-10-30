@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+h1, h2, h3, h4, h5, h6, a{    
+    font-family: 'Quantico', sans-serif;
+}
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -12,6 +20,13 @@ p{
     position: fixed;
     width: 100%;
     z-index: 1030; /* Valor superior al z-index por defecto de los componentes de Bootstrap */
+}
+
+@media (max-width: 576px) {
+    
+    .navbar .navbar-nav .nav-link {
+        color: rgb(0, 0, 0); 
+    }
 }
 
 .nav-link {
@@ -259,8 +274,18 @@ background: linear-gradient(180deg, rgba(159,221,247,0.7288165266106443) 0%, rgb
 background: linear-gradient(180deg, rgba(203,203,203,0.7959558823529411) 0%, rgba(2, 100, 124, 0.5) 100%);
 }
 
+.card-body p{
+    line-height: 1.2;
+}
+
+.email-link{
+    font-size: 14px;
+}
 
 
+footer a{
+    color: #212121;
+}
 
 
 
