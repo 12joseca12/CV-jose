@@ -250,13 +250,16 @@ background: linear-gradient(180deg, rgba(159,221,247,0.7288165266106443) 0%, rgb
 -moz-box-shadow: 18px 12px 13px 2px rgba(0,0,0,0.51);
 }
 
+
+
 .card-body{
     border: none;
-    height: 200px;
+    height: 250px;
     background: rgb(203,203,203);
-background: linear-gradient(180deg, rgba(203,203,203,0.7959558823529411) 0%, rgba(34,34,34,0.8127626050420168) 100%);
-    
+background: linear-gradient(180deg, rgba(203,203,203,0.7959558823529411) 0%, rgba(2, 100, 124, 0.5) 100%);
 }
+
+
 
 
 
