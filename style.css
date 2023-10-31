@@ -2,9 +2,12 @@
 
 h1, h2, h3, h4, h5, h6, a{    
     font-family: 'Quantico', sans-serif;
+    
 }
 
-
+html{
+    overflow-x: hidden; 
+}
 
 body{
     margin: 0;
@@ -13,8 +16,19 @@ body{
     margin-right: 0 !important;
 }
 
+.container-fluid,
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 p{
     line-height: 1.8;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: 2px 2px 4px rgba(0, 225, 255, 0.685); /* Cambia los valores según tus preferencias */
 }
 
 .navbar {
@@ -23,9 +37,9 @@ p{
     z-index: 1030; /* Valor superior al z-index por defecto de los componentes de Bootstrap */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .navbar-nav .nav-link {
-      color: black; /* Cambia el color de los enlaces a negro */
+      color: rgba(0, 0, 0, 0.986); 
     }
   }
 
@@ -33,6 +47,8 @@ p{
     color: #fff; /* Color base */
     transition: color 0.3s; /* Transición de color */
 }
+
+
 
 .neon-effect {
     text-shadow: 0 0 10px #03a9e6, 0 0 20px #fff, 0 0 30px #fff; /* Efecto de texto iluminado */
