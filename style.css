@@ -391,6 +391,43 @@ footer a{
 }
 
 
+.jumbotron-container h1 {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación para el subtítulo "Su nuevo programador web" */
+.jumbotron-container h4 {
+    opacity: 0;
+    animation: fadeIn 2s 0.5s forwards;
+}
+
+/* Animación para el botón "Mi CV" */
+.neon-button {
+    opacity: 0;
+    animation: fadeIn 2s 1s forwards;
+}
+
+#qs p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+  }
+  
+  #qs p.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 
