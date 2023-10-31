@@ -49,6 +49,9 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(159,221,247,0.7
     margin-bottom: 30px;
 }
 
+#qnsy{
+    filter: drop-shadow(0px 24px 52px rgb(20, 150, 173));
+}
 
 .wrapper .card {
     width: 300px;
