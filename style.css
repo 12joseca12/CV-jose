@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   
 
 .qs{
-    background: rgb(0,0,0);
+    background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0,0,0,0.48792016806722693) 0%, rgba(255,255,255,0.017331932773109293) 12%);
 }
 
@@ -407,27 +407,24 @@ footer a{
     }
 }
 
-/* Animación para el subtítulo "Su nuevo programador web" */
+
 .jumbotron-container h4 {
     opacity: 0;
     animation: fadeIn 2s 0.5s forwards;
 }
 
-/* Animación para el botón "Mi CV" */
+
 .neon-button {
     opacity: 0;
     animation: fadeIn 2s 1s forwards;
 }
 
-#qs p {
+
+  
+  #qs .animate {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 1s, transform 1s;
-  }
-  
-  #qs p.animate {
-    opacity: 1;
-    transform: translateY(0);
+    animation: fadeIn 2s 0.5s forwards;
   }
 
 
