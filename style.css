@@ -463,28 +463,11 @@ background: linear-gradient(180deg, rgba(159,221,247,0.7288165266106443) 0%, rgb
 }
 
 
-.carousel{
-    box-shadow: 18px 12px 13px 2px rgba(0,0,0,0.51);
--webkit-box-shadow: 18px 12px 13px 2px rgba(0,0,0,0.51);
--moz-box-shadow: 18px 12px 13px 2px rgba(0,0,0,0.51);
-}
 
 
 
-.card-body{
-    border: none;
-    height: 250px;
-    background: rgb(203,203,203);
-background: linear-gradient(180deg, rgba(203,203,203,0.7959558823529411) 0%, rgba(2, 100, 124, 0.5) 100%);
-}
 
-.card-body p{
-    line-height: 1.2;
-}
 
-.email-link{
-    font-size: 14px;
-}
 
 
 footer a{
@@ -527,5 +510,93 @@ footer a{
     transform: translateY(20px);
     animation: fadeIn 2s 0.5s forwards;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+.footer .container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.footer .container .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer{
+    
+	background-color: #24262b;
+    padding: 70px 0;
+}
+
+
+
+.footer-col h3{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h3::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 20%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
 
 
