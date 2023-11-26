@@ -18,7 +18,7 @@
           <div class="container-fluid">
             <!-- Navbar brand -->
             <a class="navbar-brand" target="_blank" href="#intro">
-              <strong>JCSG</strong>
+              <strong class="text-black">JCSG</strong>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +45,20 @@
           </div>
         </nav>
 
-        <div class="jumbotron-container">
-            <div class="p-5 text-center bg-image">
+        <div class="jumbotron-container area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+            <div class="p-5 text-center">
                     <div class="d-flex justify-content-center align-items-center h-100 mt-5">
                         <div class="text-white">
                             <nav class="social">
@@ -58,12 +70,18 @@
                         
                                 </ul>
                             </nav>
-                            <h1 class="mb-3">José Carlos Sánchez García</h1>
-                            <h4 class="mb-3">Su nuevo programador web</h4>
-                            <div class="bot-luz">
-                              <a class="btn btn-outline-light btn-lg neon-button" href="CV_Jose.pdf" download="CV_Jose.pdf" role="button">Mi CV</a>
+                            <h1 class="mb-3 mt-5">José Carlos Sánchez García</h1>
+                            <h4 class="mb-5">Su nuevo programador web</h4>
+                            <div class="">
+                              <a class="btn animated-button1 mt-5" href="CV_Jose.pdf" download="CV_Jose.pdf" role="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <h4 class="mt-2">Mi CV</h4></a>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
         </div>
@@ -80,7 +98,7 @@
                 <h2 class="animate">¿Quién Soy?</h2>
             </div>
             <div class="row">
-                <div class="col-10 col-md-4 offset-2 mt-5">
+                <div class="col-10 col-md-5 offset-md-2 mt-5">
                     <h3 class="mb-2 animate">Soy José,</h3>
                     <p class="mt-2 animate">Un joven programador de 24 años, estudiando actualmente un grado de Desarrollo de Aplicaciones Web en formato Bilingüe.</p>
                     <p class="animate">Estoy deseando encontrar un primer
@@ -102,13 +120,13 @@
                             vez aportando todo de mi para
                             mejorar el ambiente laboral.</p>
                 </div>
-                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center animate">
-                    <img src="qs.png" alt="quien soy" id="qnsy">
+                <div class="col-12 col-md-5 d-flex justify-content-center align-items-center animate">
+                    <img src="prog-banner.png" alt="quien soy" id="qnsy">
                 </div>
             </div>
         </div>
     </div>
-
+<br><br><br><br><br>
     <div class="container-fluid lng mt-5" id="programas">
         <div class="row">
             <div class="col-12 text-center mt-5 mb-4">
@@ -323,15 +341,69 @@
 
 
     <footer class="footer">
-        <div class="row text-center text-white">
-            <br>
-            <h2>¿Qué puedo ofrecer?</h2>
+        <div class="row text-center">
+            <br><br><br>
+            <h2 class="mt-5">¿Qué puedo ofrecer?</h2>
         </div>
         <br><br>
         <div class="container">
             <div class="row">
                 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-6">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                        <h4 class="panel-title">
+                                            <a class="first" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Heading-one
+                                                <span> </span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                        <div class="panel-body">
+                                            <p>Lorem , iaculis ex. Nulla vitae ipsum diam. Pellentesque vitae metus vitae massa egestas posuere. Mauris ultricies vehicula tempor. Pellentesque justo turpis, blandit nec ex eu, tempus placerat diam. Morbi a felis commodo eros consectetur rhoncus sed eget lectus. Praesent non erat vehic</p>
+                                        </div>
+                                    </div>
+                                </div>
                 
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Heading-Two
+                                                <span> </span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                        <div class="panel-body">
+                                            <p>Pellentesque justo turpis, blandit nec ex eu, tempus placerat diam. Morbi a felis commodo eros consectetur rhoncus sed eget lectus, posuere massa id, ultricies est. Pellentesque sit amet venenatis est, quis posuere ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                        <h4 class="panel-title">
+                                            <a class="collapsed last" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Heading-Three
+                                                <span> </span>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                        <div class="panel-body">
+                                            <p>Nulla vitae ipsum diam. Pellentesque vitae metus vitae massa egestas posuere justo turpis, blandit nec ex eu, tempus placerat diam. Morbi a felis commodo eros consectetur rhoncus sed eget lectus. Praesent non erat vehicula, posuere massa id, ultricies est. Pellentesque sit amet venenatis est, quis posuere ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
                 
             </div>
