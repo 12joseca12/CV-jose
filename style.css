@@ -797,6 +797,8 @@ background: linear-gradient(180deg, rgba(159,221,247,0.7288165266106443) 0%, rgb
     font-size: 1rem;
     font-weight: 300;
     margin: 2em 0;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .accordion {
