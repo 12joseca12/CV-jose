@@ -47,6 +47,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
   }
 
+  .navbar.navbar-expand-lg:not(.collapsed) {
+    background: rgb(49,85,202);
+    background: linear-gradient(180deg, rgba(49,85,202,1) 10%, rgba(108,53,209,1) 67%);
+  }
+
 .nav-link {
     color: #fff; /* Color base */
     transition: color 0.3s; /* Transición de color */
@@ -788,7 +793,7 @@ background: linear-gradient(180deg, rgba(159,221,247,0.7288165266106443) 0%, rgb
   .accordion .accordion-content {
     opacity: 0;
     max-height: 0;
-    overflow: hidden;
+    overflow: scroll;
     transition: opacity 200ms linear, max-height 200ms linear;
     will-change: opacity, max-height;
   }
